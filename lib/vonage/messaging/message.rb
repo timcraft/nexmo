@@ -8,7 +8,8 @@ module Vonage
       rcs: Vonage::Messaging::Channels::RCS,
       whatsapp: Vonage::Messaging::Channels::WhatsApp,
       messenger: Vonage::Messaging::Channels::Messenger,
-      viber: Vonage::Messaging::Channels::Viber
+      viber: Vonage::Messaging::Channels::Viber,
+      instagram: Vonage::Messaging::Channels::Instagram
     }
 
     class << self
